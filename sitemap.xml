@@ -2,14 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>http://ywangpku.github.io/PersonalWeb/index.html</loc>
-		<lastmod>2014-06-07</lastmod>
 	</url>
 	<url>
 		<loc>http://ywangpku.github.io/PersonalWeb/publications/list.html</loc>
-		<lastmod>2014-06-07</lastmod>
 	</url>
 	<url>
 		<loc>http://ywangpku.github.io/PersonalWeb/publications/thesis/abstract.html</loc>
-		<lastmod>2014-06-07</lastmod>
+	</url>
+	<url>
+		<loc>http://ywangpku.github.io/PersonalWeb/styled/index.html</loc>
+	</url>
+	<url>
+		<loc>http://ywangpku.github.io/PersonalWeb/others/contact.html</loc>
 	</url>
 </urlset>
