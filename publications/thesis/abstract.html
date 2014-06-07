@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="RapidWeaver" />
+		
+		
+		<title>Master Thesis</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Patchy/styles.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Patchy/colors-theme-default.css" />
+		<!--[if IE 6]><style type="text/css" media="screen">body {behavior: url(../../rw_common/themes/Patchy/csshover.htc);}</style><![endif]-->
+
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Patchy/css/sidebar/sidebar_right.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Patchy/css/font_style/font_serif.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Patchy/css/graphics/tape_top.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Patchy/css/graphics/tape_bottom.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Patchy/css/graphics/paper_bottom.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../../rw_common/themes/Patchy/css/graphics/paper_right.css" />
+		
+		
+		
+		<script type="text/javascript" src="../../rw_common/themes/Patchy/javascript.js"></script>
+		
+		
+		
+		
+		
+		
+
+
+	</head>
+
+	<body>
+		
+		<!-- This page was created with RapidWeaver from Realmac Software. http://www.realmacsoftware.com -->
+		
+			<div id="container">
+			
+				<div id="siteTitle">
+					<h1>My Website</h1>
+					<h2>Changing the world, one site at a time&hellip;</h2>
+				</div>
+				
+				<div id="navBackground">
+					<div style="z-index: 3000;">
+						<div style="position: absolute; z-index:1000;" id="navcontainer"><ul><li><a href="../../index.html" rel="self">Home Page</a></li><li class="currentAncestor"><a href="../../publications/list.html" rel="self">Publications</a><ul><li class="current"><a href="abstract.html" rel="self">Master Thesis</a></li></ul></li></ul></div>
+					</div>
+				</div>
+				<div id="contentTop">
+					<div id="tapeTop"></div>
+					<div id="breadcrumb"></div>
+				</div>
+	
+				<div id="backPageSide"></div>
+	
+				<div id="contentMiddle">
+					<div id="content">
+						<p style="text-align:center;"><span style="font:24px Times, Georgia, Courier, serif; font-weight:bold; font-weight:bold; ">Autonomous Skill Acquisition on Humanoid Robot Walking Ability</span><span style="font:12px Times, Georgia, Courier, serif; font-weight:bold; font-weight:bold; "><br /></span><span style="font:18px Times, Georgia, Courier, serif; "><br />Wang Yi (Artificial Intelligence)<br />Directed by Prof. Luo Dingsheng and Wu Xihong<br /><br /></span><span style="font:20px Times, Georgia, Courier, serif; font-weight:bold; font-weight:bold; ">Abstract</span><span style="font:12px Times-Roman; "><br /></span></p><p style="text-align:justify;"><span style="font:16px Times, Georgia, Courier, serif; "><br /><br />Among various of impressive skills acquired during the whole life, the ability of bipedal walking is the most essential part. It is an extremely challenging task for intelligent humanoid robots to achieve simple, flexible, stable and natural motion control like human beings. Although many significant progresses have been made, it still needs more time for Artificial Intelligence research community to reach the satisfying goal. Also, how to make a robot learn to acquire robust walking skill autonomously from a tabula rasa as an infant to that of an adult (from can&rsquo;t to can) is an important and long-term research.<br /><br />The origin of intelligence is not independent from the body. In order to achieve autonomous robust walking skill acquisition for intelligent humanoid robots in a unknown and unstructured mankind living environment, based on the idea of Embodied Cognition and Developmental Learning, in this thesis we focus on how to learn as quickly as possible and make maximize use of learned experiences for a robot to acquire walking skill under the framework of trial and error. It mainly involves specialized gait modeling for the robot&rsquo;s body structure; fast convergence during the process of walking skill acquisition; experience accumulation via knowledge representation and learned knowledge transfer and utilization in new environments and new tasks. Faced with these problems and referring to the basic processes for human beings acquiring skills: learning by trial and error, constructing knowledge representations of learned skills and transferring knowledge into new tasks, the main research includes the following three parts:<br /><br /></span><span style="font:16px Times, Georgia, Courier, serif; font-weight:bold; font-weight:bold; ">Firstly</span><span style="font:16px Times, Georgia, Courier, serif; ">, robots in a tabula rasa learn with the interaction of environment cost a lot, like mechanical wear and tear. In order to side-step Curse of Dimensionality caused by robot&rsquo;s whole body movement space optimization, in this thesis, we build a hierarchical structure model corresponding to the humanoid robot. It narrows the search range of parameter space. Furthermore, an Orthogonal Experimental Design based active learning strategy is proposed to reduce costly mechanical wear during trial and error and to maximize the use of sample information. Then the robot acquires bipedal walking skill autonomously under Self-Consistent Stability Criterion.<br /><br /></span><span style="font:16px Times, Georgia, Courier, serif; font-weight:bold; font-weight:bold; ">Secondly</span><span style="font:16px Times, Georgia, Courier, serif; ">, the problem is that robots repetitively learn under the learned or similar environment. Based on the idea of Developmental Learning, in this thesis, the Temporal Restricted Boltzmann Machine that is a kind of probabilistic model is used to build the environment-movement knowledge representation of walking skills. It assumes that the walking environment represented through inner and outer coupling with world walking motion can be characterized by a probability distribution. Then the robots have the ability to build knowledge representation of learned skills, which a certain generalization ability.<br /><br /></span><span style="font:16px Times, Georgia, Courier, serif; font-weight:bold; font-weight:bold; ">Thirdly</span><span style="font:16px Times, Georgia, Courier, serif; ">, in a new environment and new task, to shun the simply repetitive trial-and-error from a tabula rasa, the robot can reuse the knowledge of walking skills gained from previous environments. This thesis introduces TrRBMs with interaction tensor to build the inter-task mappings between different MDP, which would avoid slow convergence of Reinforcement Learning by adding information from learned MDP. In order to speed up training of TrRBMs and reduce reconstruction error, we propose a variant of the CD algorithm to accelerate convergence of training.<br /><br /></span><span style="font:16px Times, Georgia, Courier, serif; font-weight:bold; font-weight:bold; ">Last</span><span style="font:16px Times, Georgia, Courier, serif; ">, the controller system of PKU-HR5 is built based on above researches, and then the PKU-HR5 realizes autonomous skill acquisition on bipedal walking.<br /></span><span style="font:12px Times, Georgia, Courier, serif; "><br /></span></p>
+					</div>
+					<div id="sidebarContainer">
+						<div id="logoContainer">
+							
+						</div>
+						<div id="sidebarTitle">
+							<h3></h3>
+						</div>
+						<div id="sidebarContent">
+							
+							<div id="archives">
+								
+							</div>
+						</div>
+					</div>
+					<div class="clearer"></div>
+				</div>
+				
+				<div class="clearer"></div>
+				
+				<div id="contentBottom">
+					<div id="tapeBottomLeft"></div>
+					<div id="tapeBottomRight"></div>
+				</div>
+				
+				<div id="backPageBottom"></div>
+
+				<div id="footer">&copy; 2014 Yi Wang <a href="#" id="rw_email_contact">Contact Me</a><script type="text/javascript">var _rwObsfuscatedHref0 = "mai";var _rwObsfuscatedHref1 = "lto";var _rwObsfuscatedHref2 = ":wa";var _rwObsfuscatedHref3 = "ngy";var _rwObsfuscatedHref4 = "ias";var _rwObsfuscatedHref5 = "hle";var _rwObsfuscatedHref6 = "y33";var _rwObsfuscatedHref7 = "0@g";var _rwObsfuscatedHref8 = "mai";var _rwObsfuscatedHref9 = "l.c";var _rwObsfuscatedHref10 = "om";var _rwObsfuscatedHref = _rwObsfuscatedHref0+_rwObsfuscatedHref1+_rwObsfuscatedHref2+_rwObsfuscatedHref3+_rwObsfuscatedHref4+_rwObsfuscatedHref5+_rwObsfuscatedHref6+_rwObsfuscatedHref7+_rwObsfuscatedHref8+_rwObsfuscatedHref9+_rwObsfuscatedHref10; document.getElementById('rw_email_contact').href = _rwObsfuscatedHref;</script></div>
+			</div>
+
+		
+		
+	</body>
+
+</html>
